@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<!--Google Drive - Busca directa en Google Drive.-->
+<html>
+<head></head>
+<body onload="hacer()">
+<script>
+function hacer() {
+    var texto = window.location.href.replace(/.*sitiow\.web\.app\/bgd\?=/g,'');
+    var buscar = 'https://drive.google.com/drive/search?q=' + texto;
+    window.location.replace(buscar);
+    }
+</script>
+</body>
+</html>

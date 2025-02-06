@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<!--Blogger - Buscar entre mis entradas o posts.-->
+<html>
+<body>
+<script>
+var captura = window.location.href.replace(/.*\/bscrpst\?=/g,'');
+var buscar = 'https://www.blogger.com/blog/posts/4666086615889417898?q=' + captura;
+window.location.replace(buscar);
+</script>
+</body>
+</html>
